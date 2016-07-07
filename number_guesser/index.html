@@ -7,20 +7,26 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
   </head>
   <body>
-    <h1 class="title">Number Guesser</h1>
-    <div class="panel">
-      <p>Your last guess was..</p>
-      <p class="response"></p>
-    </div>
+    <section class="main"
+      <div class = "controls">
+        <h1 class="title">Number Guesser</h1>
+        <div class="panel">
+          <p id = "lastGuess"></p>
+          <p class="response"></p>
+        </div>
 
-    <div>
-      <input class="userInput" type="number"  placeholder="Place your guess!" min="1" max="100">
+        <div>
+          <input class="userInput" type="number"  placeholder="Place your guess!" min="1" max="100">
 
-      <button class="guessButton">guess</button><br>
-      <button>clear</button>
-      <button>reset game</button>
-    </div>
+          <button class="guessButton">Guess</button><br>
+          <button class="clearButton" disabled>Clear</button>
+          <button class="resetButton">Reset Game</button>
+          <input class="setMinNum" type="number" placeholder="Input Min">
+          <input class="setMaxNum" type ="number" placeholder="Input Max">
+        </div>
 
-    <script src="script.js"></script>
+        <script src="script1.js"></script>
+      </div>
+    </section>
   </body>
 </html>
