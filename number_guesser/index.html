@@ -5,27 +5,30 @@
     <title>Number Guesser</title>
     <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <section class="main"
       <div class = "controls">
         <h1 class="title">Number Guesser</h1>
+
+        <div>
+          <input class="userInput" type="number"  placeholder="Place your guess!" min="1" max="100">
+          <!-- <input class="setMinNum" type="number" placeholder="Input Min">
+          <input class="setMaxNum" type ="number" placeholder="Input Max">
+          <button class="updateMinMax">Update</button> -->
+          <button class="guessButton">Guess</button>
+          <button class="clearButton" disabled>Clear</button>
+          <button class="resetButton" disabled>Reset Game</button>
+
+        </div>
+
         <div class="panel">
           <p id = "lastGuess"></p>
           <p class="response"></p>
         </div>
 
-        <div>
-          <input class="userInput" type="number"  placeholder="Place your guess!" min="1" max="100">
-
-          <button class="guessButton">Guess</button><br>
-          <button class="clearButton" disabled>Clear</button>
-          <button class="resetButton">Reset Game</button>
-          <input class="setMinNum" type="number" placeholder="Input Min">
-          <input class="setMaxNum" type ="number" placeholder="Input Max">
-        </div>
-
-        <script src="script1.js"></script>
+        <script src="script.js"></script>
       </div>
     </section>
   </body>

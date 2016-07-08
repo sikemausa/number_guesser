@@ -1,30 +1,101 @@
-
-.userInput {
-  width: 200px;
-  font-size: 14pt;
+body {
+  height: 550px;
+   background: linear-gradient(#1A2980, #26D0CE);
 }
 
 .main {
-  width: 500px;
-  height: 700px;
+  background-color: #49C2F2;
+  width: 400px;
+  height: 400px;
   margin: auto;
-  background-color: #709BDA;
-  position: relative;
+  margin-top: 150px;
+  border: 3px solid black;
+  border-radius: 25px;
 }
 
-.controls {
-  position: absolute;
-  width: 400px;
-  top: 700px;
-  left: 100px;
-}
 
 .title {
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'Indie Flower', cursive;
+  width: 200px;
+  display: block;
+  margin: auto;
+  font-weight: 900;
+  margin-bottom:20px;
 }
 
-.panel {
-  width: 300px;
-  height: 230px;
-  background-position: top
+.userInput {
+  display:block;
+  width: 240px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom:5px
 }
+
+.guessButton  {
+  display:block;
+  width: 245px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom:5px
+}
+
+.clearButton {
+  display:block;
+  width: 245px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom:5px
+}
+
+.resetButton {
+  display:block;
+  width: 245px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom:5px
+}
+
+#lastGuess {
+  font-size:2em;
+  font-family: 'Indie Flower', cursive;
+  display:block;
+  width: 300px;
+  margin: auto;
+  text-align-last: center;
+}
+
+.response {
+  font-size:2em;
+  font-family: 'Indie Flower', cursive;
+  display:block;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+/*
+.setMinNum {
+display:block;
+width: 240px;
+margin: auto;
+border-radius: 25px;
+margin-bottom:5px
+}
+
+.setMaxNum {
+display:block;
+width: 240px;
+margin: auto;
+border-radius: 25px;
+margin-bottom:5px
+}
+
+.updateMinMax {
+display:block;
+width: 245px;
+margin: auto;
+border-radius: 25px;
+margin-bottom:5px
+}
+*/
